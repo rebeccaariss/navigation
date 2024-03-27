@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
 
-
+/* Colour palette generated on Paletton */
+/* https://paletton.com/ */
 :root {
   --primaryColor: #fff;
-  --navColor1: #21292c;
-  --navColor2: #aa3e39;
-  --navColor3: #aa6e39;
-  --navColor4: #236267;
-  --navColor5: #2c8437;
+  --navColor1: #01141F;
+  --navColor2: #062436;
+  --navColor3: #15394F;
+  --navColor4: #284F65;
+  --navColor5: #44697F;
 }
 
 html {
@@ -16,7 +18,7 @@ html {
 body {
   margin: 0;
   background: #000;
-
+  font-family: Nunito, sans-serif;
 }
 
 /* --- Navigation Menu ------------------------------ */
@@ -74,7 +76,7 @@ section {
 }
 
 section#home {
-  background-image: url("https://images.unsplash.com/photo-1581453904507-626ddb717f14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
+  background-image: url("https://images.unsplash.com/photo-1560001748-ea906810531c?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: center center;
 }
