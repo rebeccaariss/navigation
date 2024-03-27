@@ -8,7 +8,20 @@ const nav5 = document.getElementById('nav-5');
 
 function toggleNav() {
   // Toggle menu bars open/closed
+  // (change class animates hamburger menu)
   menuBars.classList.toggle('change');
+  
+  // Toggle: menu active
+  overlay.classList.toggle('overlay-active');
+  if (overlay.classList.contains('overlay-active')) {
+    // Animate in - overlay:
+    overlay.classList.remove('overlay-slide-left');
+    overlay.classList.add('overlay-slide-right');
+  } else {
+    // Animate out - overlay:
+    overlay.classList.remove('overlay-slide-right');
+    overlay.classList.add('overlay-slide-left');
+  }
 }
 
 // Event Listeners
