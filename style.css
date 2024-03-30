@@ -85,7 +85,7 @@ nav li a::before {
   /* no content here because we just want a line on hover: */
   content: "";
   width: 25vw;
-  height: 3px;
+  height: 1px;
   background-color: #fff;
   position: absolute;
   top: 47.5%;
